@@ -41,11 +41,11 @@ ul {
 .demos__box {
   display: flex;
   height: 420px;
-  max-width: 360px;
+  width: 360px;
   margin: 10px;
   flex-direction: column;
   background-color: rgb(243, 243, 243);
-  padding: 20px;
+ 
 }
 
 .box__title {
@@ -55,10 +55,13 @@ ul {
   font-weight: bold;
   line-height: 1.667;
   text-align: left;
+  margin-left: 10px;
 }
 
 .box__img {
   height: 215px;
+  width: 340px;
+  margin: 0 10px
 }
 
 .box__link {
@@ -68,4 +71,5 @@ ul {
   font-weight: bold;
   line-height: 1.5;
   text-align: left;
+  padding-left: 10px;
 }
